@@ -1,0 +1,35 @@
+	{
+		type = "bool-setting",
+		name = "ethryan-modpack-settings",
+		setting_type = "startup",
+		default_value = true,
+		order = "b"
+	},
+	{
+		type = "bool-setting",
+		name = "ethryan-modpack-fragment-settings",
+		setting_type = "startup",
+		default_value = true,
+		order = "c"
+	},
+	{
+		type = "bool-setting",
+		name = "ethryan-modpack-enemy-settings",
+		setting_type = "startup",
+		default_value = true,
+		order = "d"
+	},
+	{
+		type = "bool-setting",
+		name = "ethryan-modpack-graphics-settings",
+		setting_type = "startup",
+		default_value = true,
+		order = "e"
+	},
+	{
+		type = "bool-setting",
+		name = "ethryan-modpack-settings-lock-tech",
+		setting_type = "startup",
+		default_value = true,
+		order = "f"
+	}

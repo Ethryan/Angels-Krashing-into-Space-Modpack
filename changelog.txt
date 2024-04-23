@@ -1,0 +1,185 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.11
+Date: 27-03-2024
+
+  Changes:
+    - More work on ore processing.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.10
+Date: 20-03-2024
+
+  Changes:
+    - More bugfixes and recipe edits.
+    - Change Fluid Permutations to the fixed version.
+    - Start adding Ore processing machines WIP Disabled for now.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.9
+Date: 13-03-2024
+
+  Changes:
+    - More bugfixes and recipe edits.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.8
+Date: 06-03-2024
+
+  Changes:
+    - Bugfixes and recipe edits.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.7
+Date: 20-02-2024
+
+  Changes:
+    - Added an early oxygen recipe so that sulfuric acid is obtainable.
+    - Change Tungsten Carbide ot use only Coke instead of a mix with Graphite.
+    - Fixed Steel ingot to use Molten Nickel and no salt.
+    - Fixed a few recipe errors that hang around.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.6
+Date: 14-02-2024
+
+  Changes:
+    - Fixed a load error affecting linux.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.5
+Date: 11-02-2024
+
+  Changes:
+    - More recipe tweaks.
+    - New Research for metal processing, work in progress, alloys still needs to be transfered to their own research.
+    - Locked early science lab and burner assemblers behind their own research.
+    - Reduced the length of pipe to ground back to vanilla.
+    - Reduced the length of steel pipe to ground to 20.
+    - Added a fuel value to Phenol, 500 KJ, well... At least you can burn it for some power...
+    - Glass needs Lead instead of Tin now.
+    - Disabled the Phenol recipe, but added it as a byproduct of oil processing.
+    - Removed the extra bakelite from the electronic circuit production.
+    - Radars now use sentinels so no need to keep sticking them in a chest when you have no use for them.
+    - Removed Crushed Manganese and Graphite from the Steel Plate recipe.
+    - Added a higher tier Steel recipe that uses Graphite and Oxygen instead.
+    - Added Crushed Manganese to the  Stainless Steel recipe.
+    - Added Tantalum Wire, that are used in electronic components.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.4
+Date: 06-02-2024
+
+  Changes:
+    - Various recipe tweaks.
+    - New Research for copper repair pack.
+    - Made various research tweaks to make progression more logical.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 31-01-2024
+
+  Changes:
+    - Hotfix a locked config setting
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 31-01-2024
+
+  Changes:
+    - Finish the Fission 1 research
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 30-01-2024
+
+  Changes:
+    - Hotfix a tech error I missed
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 29-01-2024
+
+  Changes:
+    - Reworked the entire mod and added more mods.
+    - Restored the Rubber Appearance to Bob's Rubber.
+    - Changed Realistic Fusion Power setting to reenable depleted rod processing, since some "Genius" decided to delete all recipes as a compatability option with Krastorio. And remove all other unlocks.
+    - Rewrote the entire mod, it should now work without manual config setting.
+    - TODO: Add Fission and Fusion SE Tech. In Progress, fission is halfway implemented.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 20-01-2024
+
+  Changes:
+    - Hotfix the loader recepies.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 02-01-2024
+
+  Changes:
+    - Changed Crushed Manganese result to be 5 instead of 20.
+    - Added a config option to turn on my recommended settings. WiP!!! Read Warning if used!!!!
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 07.12.2023
+
+  Changes:
+    - Actually fix the recipes this time.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 05.12.2023
+
+  Changes:
+    - Added the Crusher to the Pulverizer recipe.
+    - Added 1 Burner Turbine Generator and 2 Steam Engines to the Gas Power Station.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 22.11.2023
+
+  Changes:
+    - Replaced Salt in Steel Plate recipe with Nickel Plate.
+    - Made the loaders require inserters in their recipe.
+    - Moved Bismuth Glass to Furnace.
+    - Added Chemical Plant and Fuel Processor to the Fuel Refinery Recipe.
+    - Replaced LTN With Project Cybersyn.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 01.10.2023
+
+  Changes:
+    - Made the pumpjacks us a drilling rig instead of salt as ingredients.
+    - Changed Pipe to Ground to require Bolted Flanges instead of Tin Plate.
+    - Changed Steel Pipe ingredient, Bolted Flange to Airtight Seal.
+    - Moved copper tungsten to use the furnace.
+    - Made Airtight Seal require Rubber instead of Graphite.
+    - Made Blue Science require Battery Research instead of sulphur research.
+    - Added Tungsten Plates to the Meteor Defence Ammo.
+    - Hide the unused Phenolic Boards.
+    - Change Hardened Inserter to not require Red Inserters.
+
+  Bugfixes:
+    - Added a new recipe Rare Metals to Basic Alloys.
+    - Marked Required Mods as Required. No more complaining about missing items.
+
+If you can't load a already crafted map, try disable the recipe book, load the map. Save it. Then enable recipe book again and load the save.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 28.09.2023
+
+  Changes:
+    - Hide the duplicate research for Overflow and Top-up Valves. (Don't work on games where it has already been researched.)
+    - Change the overflow Valves to use Flow Controllers.
+    - Moved Advanced fluid handling to later in the tech tree and made them a lot harder to craft.
+    - Moved Bronze Plate crafting to the furnace.
+    - Made the Oil Refinery require Chemical Plant to craft.
+
+  Bugfixes:
+    - Moved Circuit Network Research to be after Optical Cable.
+    - Fix the Undergrund pipes research to use the correct cards.
+    - Hide the duplicate Overflow and Top-up Valves.

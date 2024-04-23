@@ -1,0 +1,13 @@
+local util = require("data-util")
+
+table.insert( data.raw.technology["solar-productivity-1"].prerequisites, "productivity-science-pack" )
+table.insert( data.raw.technology["solar-productivity-1"].unit.ingredients, {"productivity-science-pack", 1} )
+table.insert( data.raw.technology["solar-productivity-2"].prerequisites, "productivity-science-pack" )
+table.insert( data.raw.technology["solar-productivity-2"].unit.ingredients, {"productivity-science-pack", 1} )
+table.insert( data.raw.technology["solar-productivity-3"].unit.ingredients, {"productivity-science-pack", 1} )
+table.insert( data.raw.technology["solar-productivity-4"].unit.ingredients, {"productivity-science-pack", 1} )
+table.insert( data.raw.technology["solar-productivity-5"].unit.ingredients, {"productivity-science-pack", 1} )
+table.insert( data.raw.technology["solar-productivity-6"].unit.ingredients, {"productivity-science-pack", 1} )
+table.insert( data.raw.technology["solar-productivity-7"].unit.ingredients, {"productivity-science-pack", 1} )
+table.insert( data.raw.technology["solar-productivity-8"].unit.ingredients, {"productivity-science-pack", 1} )
+table.insert( data.raw.technology["solar-productivity-9"].unit.ingredients, {"productivity-science-pack", 1} )
